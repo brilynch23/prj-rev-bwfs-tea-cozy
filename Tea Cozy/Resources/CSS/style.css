@@ -1,0 +1,127 @@
+*{
+  font-family: Helvetica;
+  color:seashell;
+  background-color:black;
+  opacity:0.9;
+  text-align: center;
+  font-size: 22px;
+
+}
+.header{
+  height:69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 5;
+  padding-bottom: 5px;
+
+}
+.logo {
+  margin-left: 10px;
+}
+ul {
+  list-style-type: none;
+  text-align: right;
+  display: inline;
+  margin-left: 725px;
+  padding: 0;
+  vertical-align: middle;
+}
+li {
+  display: inline;
+  vertical-align: middle;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 15px;
+}
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+background-size: cover;
+  height: 700px;
+  width: 1200px;
+    padding-top: 400px;
+  vertical-align: middle;
+}
+.missiontext {
+  display: block;
+  margin: 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  vertical-align: middle;
+  margin: 0 auto;
+  align-items: center;
+}
+h2 {
+  font-size: 30px;
+  background-color: transparent;
+}
+.tea {
+  margin: 0;
+  padding: 0;
+}
+.toptypes {
+  width: 1000px;
+  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bottomtypes {
+  width: 1000px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+}
+.berrytext {
+  padding-top: 10px;
+}
+.bedford {
+  padding-left: 35px;
+}
+.locnames {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.loctitle {
+padding-top: 85px;
+background-color: transparent;
+}
+.locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+background-size: cover;
+  height: 500px;
+  width: 1200px;
+}
+.downtown, .bayside, .Oakdale {
+  opacity: 1;
+  height: 250px;
+  width: 300px;
+
+}
+.downtown {
+  margin-left: 110px;
+}
+.Oakdale {
+  margin-right: 110px;
+}
+.contact {
+  height: 200px;
+  align-items: center;
+  vertical-align: middle;
+
+}
+h5{
+  font-size: .83em;
+}
+.footer {
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+position: absolute;
+}
